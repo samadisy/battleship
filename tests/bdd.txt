@@ -1,0 +1,39 @@
+1) Setup board
+
+Board requirements:
+1 -> 10 Rows
+A -> J Columns
+10x10 board
+2 players
+5 pieces
+
+1b)
+
+Piece requirement:
+Carrier: Takes up 5 spaces
+Battleship: Takes up 4 spaces
+Cruiser: Takes up 3 spaces
+Submarine: Takes up 3 spaces
+Destroyer: Takes up 2 spaces
+Can be put in horizontal or vertical
+cannot overlap with other pieces
+Cannot be moved after setup phase
+
+
+2) play game:
+Taking Turns:
+Players take turns calling out a shot to a specific grid coordinate (e.g., "B5").
+The opponent checks their primary grid to see if any of their ships occupy that coordinate.
+
+Recording Hits and Misses:
+If there is a ship on the called-out coordinate, it's a hit.
+If there is no ship on the called-out coordinate, it's a miss.
+A hit might is marked with RED.
+A miss is marked as GREEN
+
+Sinking Ships:
+If all spaces occupied by a ship are hit, the ship is considered sunk.
+
+Winning the Game:
+The game continues with players taking turns until one player successfully sinks all of the opponent's ships.
+The first player to sink all of their opponent's ships wins the game.
